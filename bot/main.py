@@ -5,7 +5,6 @@ from aiogram import Bot, Dispatcher
 from aiogram.enums import ParseMode
 from aiogram.client.default import DefaultBotProperties
 from dotenv import load_dotenv
-from bot.handlers import start
 
 load_dotenv()
 
