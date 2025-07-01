@@ -1,6 +1,7 @@
 import asyncio
 import logging
 import os
+from bot.handlers import start
 from aiogram import Bot, Dispatcher
 from aiogram.enums import ParseMode
 from aiogram.client.default import DefaultBotProperties
